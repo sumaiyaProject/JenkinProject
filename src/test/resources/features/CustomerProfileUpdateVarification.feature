@@ -1,5 +1,5 @@
 Feature: Customer Profile Update Feature
-
+@smoke
 Scenario: Login as an Customer
 Given I am in landing page http://it.microtechlimited.com
 When I Click on Login menu
