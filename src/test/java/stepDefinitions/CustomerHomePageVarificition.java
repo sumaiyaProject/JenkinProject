@@ -48,6 +48,7 @@ public class CustomerHomePageVarificition extends Base{
 	public void verify_that_i_am_in_customer_home_page() {
 		String welcomeMsg=customerHomePage.getWelcomeText();
 		assertEquals("Welcome David" , welcomeMsg);
+		System.out.println(welcomeMsg);
 	}
 
 }
